@@ -55,6 +55,12 @@ h1 {
     margin: 0.5em 0;
     font-size: 1.6rem;
     font-weight: 800;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+h1:hover {
+    color: var(--Yellow);
 }
 
 .description {
